@@ -1,0 +1,15 @@
+/* Element Selektor */
+div {
+    background-color: plum;
+}
+
+/*id Selektor */
+#heading {
+    font-size: 3rem;
+}
+
+/* Klassenselektor */
+.subtitle {
+    font-size: 1.5rem;
+    color: darkblue;
+}
