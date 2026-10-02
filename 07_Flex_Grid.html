@@ -8,13 +8,27 @@
     <style>
         .box {
             background-color: darkmagenta;
-            width: 100px;
+            padding: 10px;
+            /*Innenabstand*/
             height: 100px;
         }
 
         .container {
             display: grid;
-            grid-template-columns: 100px 100px 50px;
+            grid-template-columns: auto auto auto;
+            /* breite der spalten */
+            grid-auto-rows: minmax(100px, auto);
+            column-gap: 2px;
+            row-gap: 2px;
+        }
+
+        .item1 {
+            grid-row-start: span 3;
+
+        }
+
+        .item2 {
+            grid-column-start: span 2;
         }
     </style>
 </head>
