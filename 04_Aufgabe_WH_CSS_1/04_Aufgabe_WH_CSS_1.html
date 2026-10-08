@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blau {
+            background-color: lightblue;
+            width: 200px;
+            height: 400px;
+            margin-left: 40px;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        .schwarz {
+            background-color: black;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: -20px;
+            top: -20px;
+        }
+
+        .grün {
+            background-color: lightgreen;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .box-unten {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 40px;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .box {
+            background-color: lightgreen;
+            width: 40px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blau">
+        <div class="schwarz"></div>
+        <div class="grün"></div>
+    </div>
+
+    <div class="box-unten">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+
+</html>
